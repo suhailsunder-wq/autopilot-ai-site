@@ -15,7 +15,7 @@
   }
   const statusLabels = document.querySelectorAll('[data-shop-status]');
   statusLabels.forEach(el => {
-    el.textContent = config.shopOpen ? 'Now available' : 'Available now · Gumroad checkout';
+    el.textContent = config.shopOpen ? 'Now available' : 'Coming soon';
   });
   document.querySelectorAll('[data-buy-product]').forEach(el => {
     const product = el.dataset.buyProduct;
@@ -24,7 +24,12 @@
       el.removeAttribute('aria-disabled');
       el.removeAttribute('tabindex');
       el.classList.remove('button-disabled');
-      el.setAttribute('href', url);
+      const tracked = new URL(url);
+      tracked.searchParams.set('utm_source', 'autopilotai');
+      tracked.searchParams.set('utm_medium', 'website');
+      tracked.searchParams.set('utm_campaign', 'rate_floor_organic');
+      tracked.searchParams.set('utm_content', product === 'free' ? 'free_calculator' : 'paid_toolkit');
+      el.setAttribute('href', tracked.toString());
       el.textContent = product === 'free' ? 'Download free calculator ↗' : 'Get The Rate Floor — $19 ↗';
     } else {
       el.removeAttribute('href');
