@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#091424"/><stop offset=".65" stop-color="#11263A"/><stop offset="1" stop-color="#0B172B"/></linearGradient><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1B354B"/><stop offset="1" stop-color="#102436"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<circle cx="1045" cy="40" r="340" fill="#B8FB48" fill-opacity=".06"/><circle cx="1150" cy="660" r="270" fill="#64D8F2" fill-opacity=".045"/>
+<path d="M0 592 C280 540 400 700 695 628 S1033 589 1280 650 V720 H0Z" fill="#B8FB48" fill-opacity=".075"/>
+<rect x="58" y="50" width="59" height="59" rx="14" fill="#B8FB48"/>
+<path d="M74 94 L88 65 L103 94 M80 82 H96" fill="none" stroke="#112019" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="137" y="92" fill="#EFF6FC" font-family="Arial,Helvetica,sans-serif" font-size="33" font-weight="800" letter-spacing="2">AUTOPILOT <tspan fill="#B8FB48">AI</tspan></text>
+<text x="64" y="191" fill="#B8FB48" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" letter-spacing="4">FREELANCE WORKFLOW TOOLKIT</text>
+<text x="60" y="284" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="65" font-weight="800">Freelance Client</text>
+<text x="60" y="361" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="65" font-weight="800">Pipeline Tracker</text>
+<text x="63" y="431" fill="#C3D0DC" font-family="Arial,Helvetica,sans-serif" font-size="28">Organize leads, opportunities</text>
+<text x="63" y="470" fill="#C3D0DC" font-family="Arial,Helvetica,sans-serif" font-size="28">and follow-up actions.</text>
+<rect x="61" y="579" width="325" height="63" rx="20" fill="#B8FB48" fill-opacity=".13" stroke="#B8FB48" stroke-opacity=".7"/>
+<text x="84" y="621" fill="#B8FB48" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700">EDITABLE XLSX + GUIDES</text>
+<rect x="771" y="188" width="446" height="390" rx="33" fill="url(#panel)" stroke="#476077" stroke-width="2"/>
+<text x="818" y="245" fill="#9EB4C6" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" letter-spacing="2">PIPELINE OVERVIEW</text>
+<path d="M826 301 H1165 M826 381 H1165 M826 461 H1165" stroke="#55708A" stroke-width="3" stroke-opacity=".65"/>
+<circle cx="842" cy="320" r="19" fill="#B8FB48"/><circle cx="985" cy="398" r="19" fill="#64D8F2"/><circle cx="1130" cy="477" r="19" fill="#B8FB48"/>
+<path d="M858 334 L968 385 M1000 408 L1114 465" stroke="#B8FB48" stroke-width="7" fill="none" stroke-linecap="round"/>
+<rect x="894" y="284" width="154" height="45" rx="12" fill="#2B5266"/>
+<text x="914" y="314" fill="#EEF7FC" font-family="Arial" font-size="20" font-weight="700">New lead</text>
+<rect x="1012" y="344" width="163" height="44" rx="12" fill="#31546A"/>
+<text x="1030" y="374" fill="#EEF7FC" font-family="Arial" font-size="20" font-weight="700">Follow-up</text>
+<rect x="864" y="493" width="203" height="46" rx="12" fill="#365C60"/>
+<text x="886" y="524" fill="#EEF7FC" font-family="Arial" font-size="20" font-weight="700">Next action</text>
+<text x="63" y="690" fill="#9FAFBD" font-family="Arial,Helvetica,sans-serif" font-size="20">Independent work. Better organized.</text>
+</svg>
