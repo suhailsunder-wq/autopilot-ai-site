@@ -1,8 +1,8 @@
 :root {
   color-scheme: dark;
-  --bg: #090f1b; --bg2:#0f1c30; --panel:#102135; --panel2:#14283d;
-  --lime:#c3ff57; --lime-dark:#9ce029; --ink:#f5f8f9; --muted:#aab9c8;
-  --line:rgba(210,233,245,.14); --line-strong:rgba(210,233,245,.25);
+  --bg: #0c0d12; --bg2:#171923; --panel:#1b1c26; --panel2:#252633;
+  --lime:#d7b77b; --lime-dark:#bd9658; --ink:#f5f1e8; --muted:#b7b3ad;
+  --line:rgba(215,183,123,.18); --line-strong:rgba(215,183,123,.34);
   --shade:0 28px 76px rgba(0,0,0,.3); --radius:22px;
 }
 *{box-sizing:border-box} html{scroll-behavior:smooth}
@@ -28,3 +28,5 @@ h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.12;letter-spacing:-.045em}h1{font-siz
 @media(max-width:760px){.container{width:min(100% - 34px,1168px)}.nav{min-height:70px}.nav-menu{display:block}.nav-links{display:none;position:absolute;top:69px;left:0;right:0;background:#101d2d;padding:20px 17px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:14px}.nav-links.open{display:flex}.nav-links a{padding:7px 10px}.nav-links .nav-cta{justify-content:center}.nav .nav-extra{display:none}.hero{padding:59px 0 70px}.hero-grid,.page-hero-grid{grid-template-columns:1fr}.hero-visual{padding:20px 10px 35px;margin-top:24px}.visual-grid{inset:0}.product-art{max-width:540px;margin-inline:auto}.float-tag-two{top:0;right:-2px}.float-tag-one{left:-2px;bottom:6px}.stats-inner{grid-template-columns:repeat(2,1fr);gap:18px 0}.stat:nth-child(2){border-right:0}.stat{font-size:12px}.section{padding:67px 0}.section-tight{padding:40px 0}.product-grid,.product-grid.three,.feature-grid,.tool-grid,.calculator-layout{grid-template-columns:1fr}.product-card{min-height:320px}.banner{align-items:flex-start;flex-direction:column;padding:29px 24px;gap:20px}.footer-row{flex-direction:column}.page-hero{padding:57px 0 62px}.page-hero-grid .product-art{margin-top:24px}.calc-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:440px){h1{font-size:49px}.hero h1{font-size:46px}.button-row{align-items:stretch}.button-row .button{width:100%}.float-tag{padding:10px 12px;font-size:11px}.float-tag strong{font-size:14px}.float-tag .mini-symbol{height:27px;width:27px}.float-tag-two{top:6px}.float-tag-one{bottom:0}.stats-inner{grid-template-columns:1fr 1fr}.stat{padding:0 5px;gap:7px}.stat b{font-size:16px}.calculator-panel,.calc-result{padding:22px}.calc-grid{grid-template-columns:1fr}.calc-result .big-number{font-size:52px}.feature{padding:23px}.product-card{padding:23px}.availability{font-size:11px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+/* Premium visual refinement: restrained gold accents and subtle card treatment. */
+.product-card{border-color:rgba(215,183,123,.24)}.product-card:hover{border-color:rgba(215,183,123,.5)}.price{letter-spacing:.01em}.catalog-cover{border-color:rgba(215,183,123,.25)}
