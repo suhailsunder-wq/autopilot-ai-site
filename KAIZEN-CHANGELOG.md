@@ -13,3 +13,10 @@
 - Corrected product-description price mentions and Rate Floor detail metadata. Updated GitHub catalog, homepage, Rate Floor landing page, pricing guide and scope-creep guide to match. Refined shared color tokens to charcoal, ivory and muted gold; no fake scarcity, claims or testimonials.
 - Verified connected Gumroad list_products readback and catalog source price strings. Public Render deployment and visual browser QA still need verification.
 - Rollback: revert website commits and restore prior Gumroad prices ($19, $15, $15, $15, $19, $19, $15, $12, $24). Higher prices are an untested hypothesis, not a guarantee of greater revenue.
+
+## 2026-11-14 — Free-first homepage conversion test
+- **Baseline:** Gumroad Nov 1–14 (Pacific seller timezone): 1 recorded product view (AI Automation Discovery & Pilot Kit; direct referrer), 0 sales, $0 revenue, and 0 recorded free-product views. No free downloads verified. The previous site deployment was live at commit `ac1ad874`.
+- **Change:** Swapped the two existing homepage hero buttons: the UTM-tagged free Floor Rate Calculator is now the first, primary button; the 10-product catalog remains available as the secondary button. No prices, products, assets or checkout settings changed.
+- **Hypothesis:** Lowering the first-click commitment from browsing paid products to a free useful tool may increase qualified free-product visits and eventual downloads.
+- **Measurement:** Compare Gumroad free-product views and referrers over the next week; downloads cannot be inferred from page views. Verify Render serves commit `15a534a` before attributing any change. The existing auto-deploy integration has not reliably deployed commits; manual deploy may be required.
+- **Rollback:** Revert the homepage CTA-order commit `15a534a`.
