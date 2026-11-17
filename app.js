@@ -43,7 +43,7 @@
   document.querySelectorAll('[data-contact-email]').forEach(el => {
     if (!config.contactEmail) return;
     const subject = el.dataset.emailSubject || 'AUTOPILOT AI enquiry';
-    const body = el.dataset.emailBody || '';
+    const body = (el.dataset.emailBody || '').replace(/\\n/g, '\n');
     el.href = `mailto:${config.contactEmail}?subject=${encodeURIComponent(subject)}${body ? '&body=' + encodeURIComponent(body) : ''}`;
   });
   document.querySelectorAll('[data-year]').forEach(el => el.textContent = String(new Date().getFullYear()));
